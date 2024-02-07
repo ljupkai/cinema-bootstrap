@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Kavivanar&family=Lato&family=Old+Standard+TT&family=Satisfy&display=swap");
+
+html {
+    font-size: 100%;
+  }
+
+  
+nav:not(nav.pag) {
+    background: linear-gradient(to left, #ed5f2b, #f39b7a);
+    font-family: 'Lato';
+    letter-spacing: 1.5px;
+}
+
+.navbar-brand {
+    font-family: Satisfy;
+    transform: rotate(-6deg);
+}
+
+nav li a:not(.dropdown-menu):hover {
+    background-color: #ec5c29;
+    border-radius: 4px;
+    color: white !important;
+}
+
+
+
